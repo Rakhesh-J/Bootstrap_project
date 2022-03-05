@@ -4,3 +4,19 @@
 .section-bg{
     background-image: linear-gradient(grey,black);
 }
+.project-1{
+    height: auto;
+    width: auto;
+}
+.project-2{
+    
+}
+@media screen and (max-width: 800px) {
+    #aboutme {
+      display: flex;
+      flex-direction: column;
+    }
+    #aboutme div:first-child {
+      order: 1;
+    }
+  }
